@@ -1,0 +1,186 @@
+/*for the body*/
+body{
+    font-family:"Helvetica", sans-serif;
+    background-image: url("../images/background-image2.jpg");
+}
+a{
+    color:white;
+}
+/*header-icon*/
+.header-icon{
+    height:150px;
+    border:8px solid white;
+    border-radius:50%;
+}
+/*header content*/
+.header{
+    padding:40px;
+    text-align:center;
+    background:teal;
+    margin:40px;
+    font-size:20px;
+}
+*{
+    box-sizing:border-box;
+}
+/*creating equal columns*/
+.column-2{
+    float:left;
+    width:45%;
+    padding:40px;
+    padding-left:70px;
+    padding-right:70px;
+    height:475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom:70px;
+    line-height:2;
+    background:white;
+    border:8px solid white;
+    border-radius:8px;
+}
+/*large picture*/
+.large-image{
+    background:url('../images/large-image.jpg');
+    background-size:cover;
+    background-position:center;
+}
+/*section head*/
+.section-3{
+    text-align:center;
+    color:white;
+    margin-top:150px;
+    margin-bottom:10px;
+    font-size:35px;
+    font-family:verdana;
+}
+/*sizing image gallery container*/
+.column-3 {
+  float:left; 
+  width:28%; 
+  padding:15px; 
+  margin:35px; 
+  height:300px; 
+}
+/*images for gallery container*/
+.gallery-1 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+}
+.gallery-2 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+}
+.gallery-3 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+}
+.gallery-4 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+}
+.gallery-5 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+} 
+.gallery-6 { 
+  background:url('../images/large-image.jpg'); 
+  background-size:cover; 
+} 
+/*space between different sctions*/
+.section-break{
+   margin:200px; height:450px; 
+}
+/*section of the quote*/
+.column-quote {
+   width:90%; height:475px; 
+   padding:40px;
+   padding-left:70px;
+   padding-right:70px;
+   padding-bottom:100px;
+   margin:auto; 
+   margin-top:150px; 
+   margin-bottom:200px;
+   border:
+   20px solid teal;
+} 
+.quote { font-size:80px;
+   font-weight:bold;
+   line-height:1;
+   text-align:center;
+} 
+/*this is a paragraph class to change the color of the quote*/ 
+.p { font-family:
+   monospace;color:white;} 
+/*this is a test to see if the hover text works*/ 
+.gallery-container{ position:relative;} 
+.gallery-text{ position:absolute;top:
+   50%;left:
+   50%;transform:
+   translate(-50%,-50%);opacity:
+   0;transition:
+   opacity .4s ease-in-out;color:white;font-size:
+   40px;} 
+.gallery-container:hover 
+.gallery-text{ opacity:
+   1;} 
+/* picture fade on hover*/ 
+.img { opacity:
+   1;transition:
+   opacity .3s ease-in-out;} 
+.img:hover { opacity:
+   0.5;} 
+/*footer bottom*/ 
+.footer { position:
+   fixed;bottom:
+   0;left:
+   0;width:
+   100%;height:
+   90px;background-color:
+   teal;} 
+.footer-text-left { font-size:
+   25px;padding-left:
+   40px;float:left;word-spacing:
+   20px;} 
+a.menu:hover { background-color:black;font-size:
+   20px;} 
+.footer-content-right { padding-right:
+   40px;margin-top:
+   20px;float:right;} 
+.icon-style { height:
+   40px;margin-left:
+   20px;margin-top:
+   5px;} 
+.icon-style:hover { background-color:white;padding:
+}
+
+@media only screen and (max-width :768) {
+.column-2, .column-3, .column-quote {
+width :100%;
+margin :10%;
+padding :10%;
+height :auto
+}
+.footer {
+position :relative
+}
+.footer-text-left, .footer-content-right {
+text-align :center
+}
+
+.icon-style {
+display :inline-block
+}
+
+.section-break {
+margin :100%
+}
+
+.section-3 {
+margin-top :75%
+}
+
+.large-image, .gallery-1, .gallery-2, .gallery-3, .gallery-4, .gallery-5, .gallery-6 {
+background-position :top
+}
+}
